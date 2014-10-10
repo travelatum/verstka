@@ -177,10 +177,13 @@ $(document).ready(function(){
     $('.js-show_popup_date').on('click',function(){showPopupDate(); return false;});
     $('.js-show_popup_service').on('click',function(){showPopupService(); return false;});
 
-    function showPopupCity(){
+    function showPopupCity(date){
+        var popup_select_city = $('.popup.popup--city');
         $('html').addClass('fancybox-margin fancybox-lock');
         $('.popup').hide();
-        $('.popup.popup--city').show();
+        $('.popup__inp_date',popup_select_city).val(date);
+        $('.f__calendar__btn span',popup_select_city).text(date);
+        popup_select_city.show();
         $('.popup_wrap').fadeIn();
     }
     function showPopupDate(){
@@ -201,6 +204,16 @@ $(document).ready(function(){
     function closePopup(){
         $('.popup_wrap').fadeOut();
     }
+
+    $('.popup--city .f__calendar__btn').on('click',function(){
+        showPopupDate();
+        return false;
+    });
+    $('.popup--date .popup__button').on('click',function(){
+        var date = $('.popup--date input.selected_date').val();
+        showPopupCity(date);
+        return false;
+    });
 
 //  скролл месяцев
     $('.calendar__days__scroll').scroll(function(){

@@ -1,7 +1,7 @@
 <? include 'parts/head.html' ?>
 
 <!--HEADER-->
-<? include 'parts/header_1.html' ?>
+<? include 'parts/header_no_bg.html' ?>
 <!--/HEADER-->
 
 <section class="page">

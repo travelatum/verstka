@@ -42,11 +42,11 @@
                 <div class="gallery__slider">
                     <div class="gallery__slider_wrap">
                         <a href="" class="gallery__slider__item gallery__slider__item--active" data-image="images/content/gallery_image.jpg"><img src="images/content/gallery_slider_image_1.jpg" alt=""/></a>
-                        <a href="" class="gallery__slider__item" data-image="images/content/gallery_image.jpg"><img src="images/content/gallery_slider_image_2.jpg" alt=""/></a>
+<!--                        <a href="" class="gallery__slider__item" data-image="images/content/gallery_image.jpg"><img src="images/content/gallery_slider_image_2.jpg" alt=""/></a>-->
+<!--                        <a href="" class="gallery__slider__item" data-image="images/content/gallery_image_vertical.jpg"><img src="images/content/gallery_slider_image_3.jpg" alt=""/></a>-->
+<!--                        <a href="" class="gallery__slider__item" data-image="images/content/gallery_image.jpg"><img src="images/content/gallery_slider_image_1.jpg" alt=""/></a>-->
+<!--                        <a href="" class="gallery__slider__item" data-image="images/content/gallery_image_vertical.jpg"><img src="images/content/gallery_slider_image_2.jpg" alt=""/></a>-->
                         <a href="" class="gallery__slider__item" data-image="images/content/gallery_image_vertical.jpg"><img src="images/content/gallery_slider_image_3.jpg" alt=""/></a>
-                        <a href="" class="gallery__slider__item"><img src="images/content/gallery_slider_image_1.jpg" alt=""/></a>
-                        <a href="" class="gallery__slider__item"><img src="images/content/gallery_slider_image_2.jpg" alt=""/></a>
-                        <a href="" class="gallery__slider__item"><img src="images/content/gallery_slider_image_3.jpg" alt=""/></a>
                     </div>
                     <a class="gallery__btn gallery__btn--prev" href=""></a>
                     <a class="gallery__btn gallery__btn--next" href=""></a>
