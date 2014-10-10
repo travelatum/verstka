@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>POPUP</title>
+    <meta charset="utf-8">
+
+    <meta name="description" content="">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">-->
+
+    <link rel="stylesheet" href="css/css.css">
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/fixIE.js"></script>
+
+
+
+    <script src="js/jquery.carouFredSel-6.2.1-packed.js"></script>
+
+    <script src="js/masonry.min.js"></script>
+    <script src="js/jQuery.customCheckbox.js"></script>
+
+    <script src="//api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+
+    <script src="js/js.js"></script>
+</head>
+<body>
+
+<!--HEADER-->
+<header class="header bebas">
+    <div class="page_width_1200">
+        <!--user-->
+        <div class="header__user">
+            <a class="header__user_favorite" href=""><!----></a>
+            <a class="header__user_ico" href=""><!----></a>
+            <a class="header__user_name" href="">K.Artemiev</a>
+        </div>
+        <!--/user-->
+
+        <div class="select_city">
+            <a href="" class="select_city__selected"><span>Москва</span></a>
+        </div>
+
+        <div class="header__expert">
+            <a class="header__expert_link" href="">Стать экспертом</a>
+        </div>
+
+        <!--<div class="select_language">
+            <a class="select_language__link" href="">English</a>
+        </div>-->
+
+        <a href="" class="header__logo">
+            <img src="images/header__logo.png" alt=""/>
+        </a>
+
+        <div class="header_nav">
+            <a href="" class="header_nav__item header_nav__item--active">Впечатления</a>
+            <a href="" class="header_nav__item">Эксперты</a>
+            <a href="" class="header_nav__item">О проекте</a>
+        </div>
+    </div>
+</header>
+<!--/HEADER-->
+
+<section class="page">
+    <!--ШАПКА-->
+    <div class="cover">
+        <div class="cover__background">
+            <img src="images/content/cover_bg.jpg" alt="" class="cover__background_img"/>
+        </div>
+        <div class="cover__content page_width_1200">
+
+
+            <h1 class="cover__title bebas">Всплывающие окна</h1>
+
+            <nav class="cover__nav bebas">
+                <a href="" class="cover__nav__item">Выберите город</a>
+                <a href="" class="cover__nav__item">Выберите даты</a>
+                <a href="" class="cover__nav__item">Выберите типы услуг</a>
+            </nav>
+        </div>
+    </div>
+</section>
+
+<!--FOOTER-->
+<footer class="footer bebas">
+    <div class="footer__top_line">
+        <div class="page_width_1200">
+            <nav class="footer__nav">
+                <a href="" class="footer__nav__item">О проекте</a>
+                <a href="" class="footer__nav__item">Сотрудничество</a>
+                <a href="" class="footer__nav__item">Специальные предложения</a>
+                <a href="" class="footer__nav__item">Условия пользования</a>
+            </nav>
+            <div class="footer__logo">
+                <img src="images/footer__logo.png" alt=""/>
+            </div>
+
+            <div class="footer__copyright">
+                2014&copy;Travelatum ltd.<br/>
+                <small class="footer__copyright__small">Все права защищены. копирование материалов без письменного согласия travelatum ltd. запрещается.</small>
+            </div>
+        </div>
+    </div>
+    <div class="footer__bot_line">
+        <div class="page_width_1200">
+            <div class="footer__share">
+                <a class="footer__share__item footer__share__item--1" href=""></a>
+                <a class="footer__share__item footer__share__item--twitter" href=""></a>
+                <a class="footer__share__item footer__share__item--linked" href=""></a>
+                <a class="footer__share__item footer__share__item--facebook" href=""></a>
+                <a class="footer__share__item footer__share__item--5" href=""></a>
+            </div>
+            <div class="footer__cards">
+                Мы принимаем оплату банковскими картами<br/>
+                систем visa и mastercard
+            </div>
+        </div>
+    </div>
+</footer>
+<!--/FOOTER-->
+
+<div class="popup_wrap">
+    <div class="popup popup--city">
+        <div class="popup__header">
+            <h5 class="popup__title">Выберите Город </h5>
+        </div>
+        <form action="">
+            <div class="popup__body">
+                <div class="popup__towns">
+                    <label for="radio1" class="custom_inp_wrap">
+                        <input type="radio" id="radio1" name="radio" class="popup__inp_city" checked="checked"/>
+                        Прага
+                    </label>
+                    <label for="radio2" class="custom_inp_wrap">
+                        <input type="radio" id="radio2" name="radio" class="popup__inp_city"/>
+                        Амстердам
+                    </label>
+                    <label for="radio3" class="custom_inp_wrap">
+                        <input type="radio" id="radio3" name="radio" class="popup__inp_city"/>
+                        Барселона
+                    </label>
+                    <label for="radio4" class="custom_inp_wrap">
+                        <input type="radio" id="radio4" name="radio" class="popup__inp_city"/>
+                        Милан
+                    </label>
+                    <label for="radio5" class="custom_inp_wrap">
+                        <input type="radio" id="radio5" name="radio" class="popup__inp_city"/>
+                        Нью-йорк
+                    </label>
+                </div>
+
+                <div class="popup__select_date">
+                    <div class="popup__label glober">когда</div>
+                    <div class="filter__elem f__calendar">
+                        <a href="">С 12 по 15 сентября 2014 <span class="ico_calendar"></span></a>
+                    </div>
+                </div>
+                <div>
+                    ДАТА ПУТЕШЕСТВИЯ ВАЖНА ДЛЯ СПЕЦИФИЧЕСКИХ ЭКСКУРСИЙ А ТАКЖЕ
+                    КОНЦЕРТОВ И ДРУГИХ ВПЕЧАТЛЕНИЙ, ПРИВЯЗАННЫХ К КОНКРЕТНОМУ ВРЕМЕНИ !
+                </div>
+            </div>
+            <div class="popup__footer">
+                <input type="submit" value="найти впечатления" class="popup__button"/>
+                <div class="clearfix"></div>
+            </div>
+        </form>
+        <a class="popup__close" href="">закрыть</a>
+    </div>
+
+    <div class="popup popup--date">
+        <div class="popup__header">
+            <h5 class="popup__title">Выберите даты</h5>
+        </div>
+        <form action="">
+            <div class="popup__body">
+                <div class="calendar">
+                    <ul class="calendar_months">
+                        <li class="calendar_months__item">
+                            <a href="" class="current_year active">июнь</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="" class="current_year">июль</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="" class="current_year">август</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="" class="current_year">сентябрь</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="" class="current_year">октябрь</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="" class="current_year">ноябрь</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="" class="current_year">декабрь</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="">январь 2015</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="">февраль</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="">март</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="">апрель</a>
+                        </li>
+                        <li class="calendar_months__item">
+                            <a href="">май</a>
+                        </li>
+                    </ul>
+
+
+                    <div class="calendar__days">
+                        <div class="calendar__days__wrap">
+                            <div class="calendar__days__scroll">
+                            <div class="calendar__days__month">
+                                <ul>
+                                    <li class="calendar__day"><a href="">1</a></li>
+                                    <li class="calendar__day"><a href="">2</a></li>
+                                    <li class="calendar__day"><a href="">3</a></li>
+
+                                    <li class="calendar__day"><a href="">4</a></li>
+                                    <li class="calendar__day"><a href="">5</a></li>
+                                    <li class="calendar__day"><a href="">6</a></li>
+                                    <li class="calendar__day"><a href="">7</a></li>
+                                    <li class="calendar__day"><a href="">8</a></li>
+                                    <li class="calendar__day"><a href="">9</a></li>
+                                    <li class="calendar__day"><a href="">10</a></li>
+
+                                    <li class="calendar__day"><a href="">11</a></li>
+                                    <li class="calendar__day"><a href="">12</a></li>
+                                    <li class="calendar__day"><a href="">13</a></li>
+                                    <li class="calendar__day"><a href="">14</a></li>
+                                    <li class="calendar__day"><a href="">15</a></li>
+                                    <li class="calendar__day"><a href="">16</a></li>
+                                    <li class="calendar__day"><a href="">17</a></li>
+
+                                    <li class="calendar__day"><a href="">18</a></li>
+                                    <li class="calendar__day"><a href="">19</a></li>
+                                    <li class="calendar__day"><a href="">20</a></li>
+                                    <li class="calendar__day"><a href="">20</a></li>
+                                    <li class="calendar__day"><a href="">22</a></li>
+                                    <li class="calendar__day"><a href="">23</a></li>
+                                    <li class="calendar__day"><a href="">24</a></li>
+
+                                    <li class="calendar__day"><a href="">25</a></li>
+                                    <li class="calendar__day"><a href="">26</a></li>
+                                    <li class="calendar__day"><a href="">27</a></li>
+                                    <li class="calendar__day"><a href="">28</a></li>
+                                    <li class="calendar__day"><a href="">29</a></li>
+                                    <li class="calendar__day"><a href="">30</a></li>
+                                    <li class="calendar__day"><a href="">31</a></li>
+                                </ul>
+                                <div class="calendar__days__month_name"><span>Июль'14</span></div>
+                            </div>
+                                <div class="calendar__days__month">
+                                    <ul>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"><a href="" class="selected">1</a></li>
+                                        <li class="calendar__day"><a href="" class="selected">2</a></li>
+                                        <li class="calendar__day"><a href="" class="selected">3</a></li>
+
+                                        <li class="calendar__day"><a href="">4</a></li>
+                                        <li class="calendar__day"><a href="">5</a></li>
+                                        <li class="calendar__day"><a href="">6</a></li>
+                                        <li class="calendar__day"><a href="">7</a></li>
+                                        <li class="calendar__day"><a href="">8</a></li>
+                                        <li class="calendar__day"><a href="">9</a></li>
+                                        <li class="calendar__day"><a href="">10</a></li>
+
+                                        <li class="calendar__day"><a href="">11</a></li>
+                                        <li class="calendar__day"><a href="">12</a></li>
+                                        <li class="calendar__day"><a href="">13</a></li>
+                                        <li class="calendar__day"><a href="">14</a></li>
+                                        <li class="calendar__day"><a href="">15</a></li>
+                                        <li class="calendar__day"><a href="">16</a></li>
+                                        <li class="calendar__day"><a href="">17</a></li>
+
+                                        <li class="calendar__day"><a href="">18</a></li>
+                                        <li class="calendar__day"><a href="">19</a></li>
+                                        <li class="calendar__day"><a href="">20</a></li>
+                                        <li class="calendar__day"><a href="">20</a></li>
+                                        <li class="calendar__day"><a href="">22</a></li>
+                                        <li class="calendar__day"><a href="">23</a></li>
+                                        <li class="calendar__day"><a href="">24</a></li>
+
+                                        <li class="calendar__day"><a href="">25</a></li>
+                                        <li class="calendar__day"><a href="">26</a></li>
+                                        <li class="calendar__day"><a href="">27</a></li>
+                                        <li class="calendar__day"><a href="">28</a></li>
+                                        <li class="calendar__day"><a href="">29</a></li>
+                                        <li class="calendar__day"><a href="">30</a></li>
+                                        <li class="calendar__day"><a href="">31</a></li>
+                                    </ul>
+                                    <div class="calendar__days__month_name"><span>Август'14</span></div>
+                                </div>
+                                <div class="calendar__days__month">
+                                    <ul>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"><a href="">1</a></li>
+                                        <li class="calendar__day"><a href="">2</a></li>
+                                        <li class="calendar__day"><a href="">3</a></li>
+
+                                        <li class="calendar__day"><a href="">4</a></li>
+                                        <li class="calendar__day"><a href="">5</a></li>
+                                        <li class="calendar__day"><a href="">6</a></li>
+                                        <li class="calendar__day"><a href="">7</a></li>
+                                        <li class="calendar__day"><a href="">8</a></li>
+                                        <li class="calendar__day"><a href="">9</a></li>
+                                        <li class="calendar__day"><a href="">10</a></li>
+
+                                        <li class="calendar__day"><a href="">11</a></li>
+                                        <li class="calendar__day"><a href="">12</a></li>
+                                        <li class="calendar__day"><a href="">13</a></li>
+                                        <li class="calendar__day"><a href="">14</a></li>
+                                        <li class="calendar__day"><a href="">15</a></li>
+                                        <li class="calendar__day"><a href="">16</a></li>
+                                        <li class="calendar__day"><a href="">17</a></li>
+
+                                        <li class="calendar__day"><a href="">18</a></li>
+                                        <li class="calendar__day"><a href="">19</a></li>
+                                        <li class="calendar__day"><a href="">20</a></li>
+                                        <li class="calendar__day"><a href="">20</a></li>
+                                        <li class="calendar__day"><a href="">22</a></li>
+                                        <li class="calendar__day"><a href="">23</a></li>
+                                        <li class="calendar__day"><a href="">24</a></li>
+
+                                        <li class="calendar__day"><a href="">25</a></li>
+                                        <li class="calendar__day"><a href="">26</a></li>
+                                        <li class="calendar__day"><a href="">27</a></li>
+                                        <li class="calendar__day"><a href="">28</a></li>
+                                        <li class="calendar__day"><a href="">29</a></li>
+                                        <li class="calendar__day"><a href="">30</a></li>
+                                        <li class="calendar__day"><a href="">31</a></li>
+                                    </ul>
+                                    <div class="calendar__days__month_name"><span>Сентябрь'14</span></div>
+                                </div>
+                                <div class="calendar__days__month">
+                                    <ul>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"><a href="">1</a></li>
+                                        <li class="calendar__day"><a href="">2</a></li>
+                                        <li class="calendar__day"><a href="">3</a></li>
+
+                                        <li class="calendar__day"><a href="">4</a></li>
+                                        <li class="calendar__day"><a href="">5</a></li>
+                                        <li class="calendar__day"><a href="">6</a></li>
+                                        <li class="calendar__day"><a href="">7</a></li>
+                                        <li class="calendar__day"><a href="">8</a></li>
+                                        <li class="calendar__day"><a href="">9</a></li>
+                                        <li class="calendar__day"><a href="">10</a></li>
+
+                                        <li class="calendar__day"><a href="">11</a></li>
+                                        <li class="calendar__day"><a href="">12</a></li>
+                                        <li class="calendar__day"><a href="">13</a></li>
+                                        <li class="calendar__day"><a href="">14</a></li>
+                                        <li class="calendar__day"><a href="">15</a></li>
+                                        <li class="calendar__day"><a href="">16</a></li>
+                                        <li class="calendar__day"><a href="">17</a></li>
+
+                                        <li class="calendar__day"><a href="">18</a></li>
+                                        <li class="calendar__day"><a href="">19</a></li>
+                                        <li class="calendar__day"><a href="">20</a></li>
+                                        <li class="calendar__day"><a href="">20</a></li>
+                                        <li class="calendar__day"><a href="">22</a></li>
+                                        <li class="calendar__day"><a href="">23</a></li>
+                                        <li class="calendar__day"><a href="">24</a></li>
+
+                                        <li class="calendar__day"><a href="">25</a></li>
+                                        <li class="calendar__day"><a href="">26</a></li>
+                                        <li class="calendar__day"><a href="">27</a></li>
+                                        <li class="calendar__day"><a href="">28</a></li>
+                                        <li class="calendar__day"><a href="">29</a></li>
+                                        <li class="calendar__day"><a href="">30</a></li>
+                                        <li class="calendar__day"><a href="">31</a></li>
+                                    </ul>
+                                    <div class="calendar__days__month_name"><span>Октябрь'14</span></div>
+                                </div>
+                                <div class="calendar__days__month">
+                                    <ul>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"></li>
+                                        <li class="calendar__day"><a href="">1</a></li>
+                                        <li class="calendar__day"><a href="">2</a></li>
+                                        <li class="calendar__day"><a href="">3</a></li>
+
+                                        <li class="calendar__day"><a href="">4</a></li>
+                                        <li class="calendar__day"><a href="">5</a></li>
+                                        <li class="calendar__day"><a href="">6</a></li>
+                                        <li class="calendar__day"><a href="">7</a></li>
+                                        <li class="calendar__day"><a href="">8</a></li>
+                                        <li class="calendar__day"><a href="">9</a></li>
+                                        <li class="calendar__day"><a href="">10</a></li>
+
+                                        <li class="calendar__day"><a href="">11</a></li>
+                                        <li class="calendar__day"><a href="">12</a></li>
+                                        <li class="calendar__day"><a href="">13</a></li>
+                                        <li class="calendar__day"><a href="">14</a></li>
+                                        <li class="calendar__day"><a href="">15</a></li>
+                                        <li class="calendar__day"><a href="">16</a></li>
+                                        <li class="calendar__day"><a href="">17</a></li>
+
+                                        <li class="calendar__day"><a href="">18</a></li>
+                                        <li class="calendar__day"><a href="">19</a></li>
+                                        <li class="calendar__day"><a href="">20</a></li>
+                                        <li class="calendar__day"><a href="">20</a></li>
+                                        <li class="calendar__day"><a href="">22</a></li>
+                                        <li class="calendar__day"><a href="">23</a></li>
+                                        <li class="calendar__day"><a href="">24</a></li>
+
+                                        <li class="calendar__day"><a href="">25</a></li>
+                                        <li class="calendar__day"><a href="">26</a></li>
+                                        <li class="calendar__day"><a href="">27</a></li>
+                                        <li class="calendar__day"><a href="">28</a></li>
+                                        <li class="calendar__day"><a href="">29</a></li>
+                                        <li class="calendar__day"><a href="">30</a></li>
+                                        <li class="calendar__day"><a href="">31</a></li>
+                                    </ul>
+                                    <div class="calendar__days__month_name"><span>Ноябрь'14</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="calendar__days__head">
+                            <ul>
+                                <li class="calendar__days__head__item">пн.</li>
+                                <li class="calendar__days__head__item">вт.</li>
+                                <li class="calendar__days__head__item">ср.</li>
+                                <li class="calendar__days__head__item">чт.</li>
+                                <li class="calendar__days__head__item">пт.</li>
+                                <li class="calendar__days__head__item">сб.</li>
+                                <li class="calendar__days__head__item">вс.</li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+            <div class="popup__footer">
+                <input type="submit" value="применить" class="popup__button"/>
+                <a href="">Отменить</a> или
+                <div class="clearfix"></div>
+            </div>
+        </form>
+        <a class="popup__close" href="">закрыть</a>
+    </div>
+
+    <div class="popup popup--services">
+        <div class="popup__header">
+            <h5 class="popup__title">Выберите типы услуг</h5>
+        </div>
+        <form action="">
+            <div class="popup__body">
+                <div class="popup__services">
+                    <label for="checkbox1" class="custom_inp_wrap">
+                        <input type="checkbox" id="checkbox1" name="checkbox" class="popup__inp_service" checked="checked"/>
+                        достопримечательности
+                    </label>
+                    <label for="checkbox2" class="custom_inp_wrap">
+                        <input type="checkbox" id="checkbox2" name="checkbox" class="popup__inp_service"/>
+                        ночная жизнь
+                    </label>
+                    <label for="checkbox3" class="custom_inp_wrap">
+                        <input type="checkbox" id="checkbox3" name="checkbox" class="popup__inp_service"/>
+                        шоу и концерты
+                    </label>
+                    <label for="checkbox4" class="custom_inp_wrap">
+                        <input type="checkbox" id="checkbox4" name="checkbox" class="popup__inp_service"/>
+                        здоровье и красота
+                    </label>
+                    <label for="checkbox5" class="custom_inp_wrap">
+                        <input type="checkbox" id="checkbox5" name="checkbox" class="popup__inp_service"/>
+                        развлечения
+                    </label>
+                    <label for="checkbox6" class="custom_inp_wrap">
+                        <input type="checkbox" id="checkbox6" name="checkbox" class="popup__inp_service" checked="checked"/>
+                        достопримечательности
+                    </label>
+                    <label for="checkbox7" class="custom_inp_wrap">
+                        <input type="checkbox" id="checkbox7" name="checkbox" class="popup__inp_service"/>
+                        ночная жизнь
+                    </label>
+                    <label for="checkbox8" class="custom_inp_wrap">
+                        <input type="checkbox" id="checkbox8" name="checkbox" class="popup__inp_service"/>
+                        шоу и концерты
+                    </label>
+                    <label for="checkbox9" class="custom_inp_wrap">
+                        <input type="checkbox" id="checkbox9" name="checkbox" class="popup__inp_service"/>
+                        здоровье и красота
+                    </label>
+                    <label for="checkbox10" class="custom_inp_wrap">
+                        <input type="checkbox" id="checkbox10" name="checkbox" class="popup__inp_service"/>
+                        развлечения
+                    </label>
+                    <div class="clearfix"></div>
+                </div>
+                <a class="reset_all" href="">Сбросить все</a>
+                <a class="check_all" href="">Выбрать все</a>
+            </div>
+            <div class="popup__footer">
+                <input type="submit" value="применить" class="popup__button"/>
+                <a href="">Отменить</a> или
+                <div class="clearfix"></div>
+            </div>
+        </form>
+        <a class="popup__close" href="">закрыть</a>
+    </div>
+
+
+</div>
+</body>
+</html>

@@ -1,0 +1,172 @@
+<div class="enter_wrap">
+    <div class="enter__bg"></div>
+    <div class="enter__logo">
+        <img src="images/enter__logo.png" alt=""/>
+    </div>
+    <div class="enter__tabs">
+        <div class="enter__tabs__header">
+            <a href="#enter" class="enter__tabs__bookmark enter__tabs__bookmark--active">вход</a>
+            <a href="#register" class="enter__tabs__bookmark">регистрация</a>
+        </div>
+        <div id="register" class="enter__tab register">
+            <form action="">
+                <div class="register__item">
+                    <label class="enter__label" for="register__name">
+                        имя
+                    </label>
+                    <input class="enter__input" type="text" name="register__name" id="register__name"/>
+                </div>
+                <div class="register__item">
+                    <label class="enter__label" for="register__email">
+                        e-mail
+                    </label>
+                    <input class="enter__input" type="text" name="register__email" id="register__email"/>
+                </div>
+                <div class="register__item">
+                    <label class="enter__label" for="register__phone">
+                        телефон
+                    </label>
+                    <div class="register__item_wrap position_relative bebas register__item_wrap--phone">
+                        <input class="enter__input enter__input--phone" type="text" id="register__phone"/>
+                        <a class="register__item_country" href="">
+                            <img src="images/register_country_rus.jpg" alt=""/>
+                            <span class="register__item_country_code">+7</span>
+                        </a>
+                        <div class="register__options">
+                            <ul>
+                                <li class="register__options__item">
+                                    <img src="images/register_country_rus.jpg" alt=""/>
+                                    <span class="register__item_country_code">+3</span>
+                                </li>
+                                <li class="register__options__item">
+                                    <img src="images/register_country_rus.jpg" alt=""/>
+                                    <span class="register__item_country_code">+3</span>
+                                </li>
+                                <li class="register__options__item">
+                                    <img src="images/register_country_rus.jpg" alt=""/>
+                                    <span class="register__item_country_code">+3</span>
+                                </li>
+                                <li class="register__options__item">
+                                    <img src="images/register_country_rus.jpg" alt=""/>
+                                    <span class="register__item_country_code">+3</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <input type="hidden" name="phone_code" class="enter__input--phone_code" value="+7"/>
+                </div>
+
+                <div class="register__item">
+                    <label class="enter__label" for="register__password">
+                        пароль
+                    </label>
+                    <div class="position_relative">
+                        <input class="enter__input" type="password" name="register__password" id="register__password"/>
+                        <span class="enter__show_password"></span>
+                    </div>
+                </div>
+                <div class="register__item bebas register__item--text">
+                    <input class="enter__input_checkbox" type="checkbox" name="register__confirm" id="register__confirm"/>
+                    <label for="register__confirm">Я согласен с условиями</label> <br/>
+                    <a href="" class="register__link">Пользовательского соглашения</a>
+                </div>
+                <div class="register__item">
+                    <input type="submit" value="зарегистрироваться" class="register__button bebas"/>
+                </div>
+            </form>
+        </div>
+
+        <div id="enter" class="enter__tab login">
+            <div class="login__item">
+                <label class="enter__label" for="enter__email">
+                    e-mail или телефон
+                </label>
+                <input class="enter__input" type="text" name="register__email" id="enter__email"/>
+            </div>
+            <div class="login__item position_relative">
+                <label class="enter__label" for="enter__password">
+                    пароль
+                </label>
+                <input class="enter__input" type="password" name="register__password" id="enter__password"/>
+                <span class="enter__show_password"></span>
+            </div>
+            <div class="login__item login__item--center_text bebas">
+                <a href="#remember_pass" class="enter__remember_password">забыли пароль?</a>
+            </div>
+            <div class="login__item">
+                <input type="submit" value="зарегистрироваться" class="login__button bebas"/>
+            </div>
+            <div class="login__social">
+                <span class="login__social__title glober">войти через соцсети</span>
+                <div>
+                    <a href="" class="login__social__button login__social__button--vk"></a>
+                    <a href="" class="login__social__button login__social__button--fb"></a>
+                    <a href="" class="login__social__button login__social__button--ok"></a>
+                    <a href="" class="login__social__button login__social__button--go"></a>
+                </div>
+            </div>
+        </div>
+
+        <div id="remember_pass" class="enter__tab remember bebas">
+            <div class="remember__header">
+                <a class="remember__prev_link" href=""></a>
+                <h6 class="remember__title">Восстановление пароля</h6>
+            </div>
+            <div class="remember__body">
+                <div class="remember__text">
+                    Чтобы восстановить забытый пароль,
+                    введите адрес электронной почты или
+                    телефон указанный при регистрации.
+                </div>
+                <div class="login__item">
+                    <label class="enter__label" for="remember__email">
+                        e-mail
+                    </label>
+                    <input class="enter__input" type="text" name="remember__email" id="remember__email"/>
+                </div>
+                <div class="remember__hr">
+                    <span class="remember__hr__text">
+                        или
+                    </span>
+                </div>
+                <div class="register__item">
+                    <label class="enter__label" for="register__phone">
+                        телефон
+                    </label>
+                    <div class="register__item_wrap position_relative bebas register__item_wrap--phone">
+                        <input class="enter__input enter__input--phone" type="text" id="register__phone"/>
+                        <a class="register__item_country" href="">
+                            <img src="images/register_country_rus.jpg" alt=""/>
+                            <span class="register__item_country_code">+7</span>
+                        </a>
+                        <div class="register__options">
+                            <ul>
+                                <li class="register__options__item">
+                                    <img src="images/register_country_rus.jpg" alt=""/>
+                                    <span class="register__item_country_code">+3</span>
+                                </li>
+                                <li class="register__options__item">
+                                    <img src="images/register_country_rus.jpg" alt=""/>
+                                    <span class="register__item_country_code">+3</span>
+                                </li>
+                                <li class="register__options__item">
+                                    <img src="images/register_country_rus.jpg" alt=""/>
+                                    <span class="register__item_country_code">+3</span>
+                                </li>
+                                <li class="register__options__item">
+                                    <img src="images/register_country_rus.jpg" alt=""/>
+                                    <span class="register__item_country_code">+3</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <input type="hidden" name="phone_code" class="enter__input--phone_code" value="+7"/>
+                </div>
+                <div class="login__item">
+                    <input type="submit" value="восстановить пароль" class="login__button login__button--remember bebas"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="enter__copy bebas">2014 &copy; travelatum ltd.</div>
+</div>
