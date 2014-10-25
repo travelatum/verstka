@@ -1,0 +1,90 @@
+<div class="map scrollto" id="b_map">
+    <div class="map__header">
+        <div class="page_width_1200">
+            <div class="map__tags bebas">
+                <div class="map__tag map__tag--type_1">Лучшие кафе/рестораны</div>
+                <div class="map__tag map__tag--type_2">Другие достопримечательности</div>
+                <div class="map__tag map__tag--type_3">Xрам святого семейства</div>
+            </div>
+            <h3 class="title bebas">На карте</h3>
+        </div>
+    </div>
+    <div class="map__body" id="map">
+
+    </div>
+    <script src="http://api-maps.yandex.ru/1.1/index.xml?key=ALmHS1QBAAAAQF6lUQMAUvfcsrDqbjvcWVfvqvcR8VhXklQAAAAAAAAAAAC3RgGIQfUOMrpx0RCcmjjnflZkiA==" type="text/javascript"></script>
+    <script type="text/javascript">
+        var myMap;
+
+        // Дождёмся загрузки API и готовности DOM.
+        ymaps.ready(init);
+
+        function init () {
+            // Создание экземпляра карты и его привязка к контейнеру с
+            // заданным id ("map").
+            myMap = new ymaps.Map('map', {
+                // При инициализации карты обязательно нужно указать
+                // её центр и коэффициент масштабирования.
+                center: [55.671574, 37.673856], // Москва
+                zoom: 12,
+                controls: []
+            });
+
+            myPlacemark_1 = new ymaps.Placemark([55.684758, 37.738521], {
+                hintContent: 'Лучшие кафе/рестораны'
+            }, {
+                // Опции.
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: 'images/map_point_1__big.png',
+                // Размеры метки.
+                iconImageSize: [52, 68],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-26, -68]
+            });
+
+            myPlacemark_2 = new ymaps.Placemark([55.694758, 37.688521], {
+                hintContent: 'Другие достопримечательности'
+            }, {
+                // Опции.
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: 'images/map_point_2.png',
+                // Размеры метки.
+                iconImageSize: [28, 36],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-14, -36]
+            });
+
+            myPlacemark_3 = new ymaps.Placemark([55.614758, 37.618521], {
+                hintContent: 'Xрам святого семейства'
+            }, {
+                // Опции.
+                // Необходимо указать данный тип макета.
+                iconLayout: 'default#image',
+                // Своё изображение иконки метки.
+                iconImageHref: 'images/map_point_3.png',
+                // Размеры метки.
+                iconImageSize: [28, 36],
+                // Смещение левого верхнего угла иконки относительно
+                // её "ножки" (точки привязки).
+                iconImageOffset: [-14, -36]
+            });
+
+            myMap.geoObjects.add(myPlacemark_1);
+            myMap.geoObjects.add(myPlacemark_2);
+            myMap.geoObjects.add(myPlacemark_3);
+        }
+
+
+        //удаление Переключателя типов карт
+        //YMaps.Events.observe(map, map.Events.Click, function (mEvent) {
+        //   map.removeControl(typecontrol);
+        //});
+
+    </script>
+</div>

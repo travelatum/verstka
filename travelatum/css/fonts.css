@@ -1,0 +1,41 @@
+
+/*
+@font-face {
+    font-family: 'glober';
+    src: url('../fonts/surozhcocur.eot');
+    src: url('../fonts/surozhcocur.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/surozhcocur.woff') format('woff'),
+    url('../fonts/surozhcocur.ttf') format('truetype'),
+    url('../fonts/surozhcocur.svg#corkituscan') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}*/
+
+/*GLOBER*/
+@font-face {
+    font-family: 'glober';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/glober/GloberBoldFree.otf') format('truetype');
+}
+@font-face {
+    font-family: 'glober';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/glober/GloberThinFree.otf') format('truetype');
+}
+
+
+/*BEBAS*/
+@font-face {
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: 700;
+    src: url(../fonts/bebas_neue/BebasNeueBold.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'BebasNeue';
+    font-style: normal;
+    font-weight: 300;
+    src: url(../fonts/bebas_neue/BebasNeueRegular.ttf) format('truetype');
+}
