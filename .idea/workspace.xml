@@ -34,10 +34,10 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="css.css" pinned="false" current="false" current-in-tab="true">
+          <file leaf-file-name="css.css" pinned="false" current="true" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/travelatum/css/css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="443" column="63" selection-start="26388" selection-end="26388" vertical-scroll-proportion="1.3357016" vertical-offset="6779" max-vertical-offset="11254">
+                <state line="157" column="111" selection-start="9109" selection-end="9109" vertical-scroll-proportion="0.3321492" vertical-offset="2482" max-vertical-offset="11254">
                   <folding />
                 </state>
               </provider>
@@ -50,16 +50,18 @@
           <file leaf-file-name="css.css" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/travelatum/css/css.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="557" column="142" selection-start="34249" selection-end="34249" vertical-scroll-proportion="77.68" vertical-offset="11411" max-vertical-offset="14076">
-                  <folding />
+                <state line="557" column="0" selection-start="34107" selection-end="34107" vertical-scroll-proportion="-12.08" vertical-offset="9167" max-vertical-offset="11254">
+                  <folding>
+                    <marker date="1414236567468" expanded="true" signature="22903:23047" placeholder="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="js.js" pinned="false" current="true" current-in-tab="true">
+          <file leaf-file-name="js.js" pinned="false" current="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/travelatum/js/js.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="256" column="39" selection-start="9031" selection-end="9031" vertical-scroll-proportion="0.87360597" vertical-offset="3882" max-vertical-offset="6885">
+                <state line="257" column="18" selection-start="9050" selection-end="9050" vertical-scroll-proportion="0.9052045" vertical-offset="3882" max-vertical-offset="6885">
                   <folding />
                 </state>
               </provider>
@@ -68,7 +70,7 @@
           <file leaf-file-name="map.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/travelatum/parts/map.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="14" column="149" selection-start="698" selection-end="698" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1615">
+                <state line="14" column="48" selection-start="597" selection-end="597" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1615">
                   <folding />
                 </state>
               </provider>
@@ -77,7 +79,7 @@
           <file leaf-file-name="object.php" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/travelatum/object.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="174" column="30" selection-start="10177" selection-end="10177" vertical-scroll-proportion="-12.384615" vertical-offset="222" max-vertical-offset="6732">
+                <state line="174" column="30" selection-start="10177" selection-end="10177" vertical-scroll-proportion="-12.384615" vertical-offset="2602" max-vertical-offset="9112">
                   <folding>
                     <element signature="tag#div#0;tag#div#0;tag#section#0" expanded="false" />
                     <element signature="tag#div#1;tag#div#1;tag#div#0;tag#section#0" expanded="false" />
@@ -89,7 +91,7 @@
           <file leaf-file-name="popup_date.html" pinned="false" current="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/travelatum/parts/popup_date.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state line="98" column="44" selection-start="4600" selection-end="4600" vertical-scroll-proportion="-13.192307" vertical-offset="694" max-vertical-offset="9843">
+                <state line="98" column="44" selection-start="4600" selection-end="4600" vertical-scroll-proportion="-13.192307" vertical-offset="1323" max-vertical-offset="10472">
                   <folding>
                     <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#form#0;tag#div#0" expanded="false" />
                   </folding>
@@ -122,9 +124,9 @@
         <option value="$PROJECT_DIR$/travelatum/index.php" />
         <option value="$PROJECT_DIR$/travelatum/object.php" />
         <option value="$PROJECT_DIR$/travelatum/parts/map.html" />
-        <option value="$PROJECT_DIR$/travelatum/css/css.css" />
         <option value="$PROJECT_DIR$/travelatum/parts/popup_date.html" />
         <option value="$PROJECT_DIR$/travelatum/js/js.js" />
+        <option value="$PROJECT_DIR$/travelatum/css/css.css" />
       </list>
     </option>
   </component>
@@ -555,21 +557,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/travelatum/parts/map.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="149" selection-start="698" selection-end="698" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1615">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/travelatum/css/css.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="557" column="142" selection-start="34249" selection-end="34249" vertical-scroll-proportion="77.68" vertical-offset="11411" max-vertical-offset="14076">
+        <state line="14" column="48" selection-start="597" selection-end="597" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/travelatum/object.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="174" column="30" selection-start="10177" selection-end="10177" vertical-scroll-proportion="-12.384615" vertical-offset="222" max-vertical-offset="6732">
+        <state line="174" column="30" selection-start="10177" selection-end="10177" vertical-scroll-proportion="-12.384615" vertical-offset="2602" max-vertical-offset="9112">
           <folding>
             <element signature="tag#div#0;tag#div#0;tag#section#0" expanded="false" />
             <element signature="tag#div#1;tag#div#1;tag#div#0;tag#section#0" expanded="false" />
@@ -579,7 +574,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/travelatum/parts/popup_date.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="44" selection-start="4600" selection-end="4600" vertical-scroll-proportion="-13.192307" vertical-offset="694" max-vertical-offset="9843">
+        <state line="98" column="44" selection-start="4600" selection-end="4600" vertical-scroll-proportion="-13.192307" vertical-offset="1323" max-vertical-offset="10472">
           <folding>
             <element signature="tag#ul#0;tag#div#0;tag#div#0;tag#div#0;tag#form#0;tag#div#0" expanded="false" />
           </folding>
@@ -588,7 +583,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/travelatum/js/js.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="256" column="39" selection-start="9031" selection-end="9031" vertical-scroll-proportion="0.87360597" vertical-offset="3882" max-vertical-offset="6885">
+        <state line="257" column="18" selection-start="9050" selection-end="9050" vertical-scroll-proportion="0.9052045" vertical-offset="3882" max-vertical-offset="6885">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/travelatum/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="111" selection-start="9109" selection-end="9109" vertical-scroll-proportion="0.3321492" vertical-offset="2482" max-vertical-offset="11254">
           <folding />
         </state>
       </provider>
